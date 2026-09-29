@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge0-cuda"
+version = "0.1.0"
+description = "Low-memory Edge0-8B inference runtime"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "safetensors>=0.4",
+    "torch>=2.5",
+    "psutil>=5.9"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

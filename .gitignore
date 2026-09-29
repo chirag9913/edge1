@@ -1,0 +1,19 @@
+﻿.venv/
+models/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+*.zip
+*.7z
+*.rar
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+reference_bundle/
+New folder/
