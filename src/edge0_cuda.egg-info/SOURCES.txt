@@ -1,8 +1,0 @@
-pyproject.toml
-src/edge0_cuda/__init__.py
-src/edge0_cuda/runtime.py
-src/edge0_cuda.egg-info/PKG-INFO
-src/edge0_cuda.egg-info/SOURCES.txt
-src/edge0_cuda.egg-info/dependency_links.txt
-src/edge0_cuda.egg-info/requires.txt
-src/edge0_cuda.egg-info/top_level.txt

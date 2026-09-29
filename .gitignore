@@ -17,3 +17,5 @@ __pycache__/
 
 reference_bundle/
 New folder/
+
+*.egg-info/
